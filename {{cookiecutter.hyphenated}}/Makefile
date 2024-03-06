@@ -2,7 +2,7 @@
 
 check:
 	ruff format --check
-	ruff --check
+	ruff check
 	mypy .
 	pytest
 
