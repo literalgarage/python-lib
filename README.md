@@ -1,6 +1,14 @@
 # python-lib cookiecutter template
 
-Updated to match the [Literal Garage](https://literalgarage.com/) house style.
+Updated to match the [Literal Garage](https://literalgarage.com/) house style. Changes include:
+
+- Default use of `ruff` for linting and formatting
+- Default use of `mypy` for type checking
+- `Makefile` for simple command-line tools (`make` to run a lint/format/typecheck/test pass)
+- Updates to make sure initial run of `make` has no errors or warnings
+- Use GitHub's [default python `.gitignore`](https://github.com/github/gitignore/blob/main/Python.gitignore)
+- Require an `author_email`
+- Require all cookiecutter template values to be supplied
 
 Forked originally from [Simon Willison's repository](https://github.com/simonw/python-lib/).
 
