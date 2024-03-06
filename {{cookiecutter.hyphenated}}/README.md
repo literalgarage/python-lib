@@ -22,14 +22,20 @@ Usage instructions go here.
 To contribute to this library, first checkout the code. Then create a new virtual environment:
 ```bash
 cd {{ cookiecutter.hyphenated }}
-python -m venv venv
+python -m venv .venv
 source venv/bin/activate
 ```
 Now install the dependencies and test dependencies:
 ```bash
-pip install -e '.[test]'
+pip install -e '.[dev]'
 ```
-To run the tests:
+
+To run tests:
 ```bash
-pytest
+make test
+```
+
+To run a full lint/typecheck/test pass:
+```bash
+make check
 ```
