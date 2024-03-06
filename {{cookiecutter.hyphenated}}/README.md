@@ -23,7 +23,7 @@ To contribute to this library, first checkout the code. Then create a new virtua
 ```bash
 cd {{ cookiecutter.hyphenated }}
 python -m venv .venv
-source venv/bin/activate
+source .venv/bin/activate
 ```
 Now install the dependencies and test dependencies:
 ```bash
