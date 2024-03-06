@@ -38,7 +38,9 @@ extend-select = [
   "B", # flake8-bugbear
 ]
 extend-ignore = [
-  "D100", # Missing docstring in public module
+  "D100", # Allow missing docstring in public module
+  "D211", # Instead, use D203 (one blank line before class docstring)
+  "D212", # Instead, use D213 (start multi-line summaries on the second line)
 ]
 
 {% if cookiecutter.github_username %}
