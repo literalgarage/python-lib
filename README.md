@@ -20,10 +20,10 @@ Regular `pip` will work OK too.
 
 ## Usage
 
-Run `cookiecutter gh:simonw/python-lib` and then answer the prompts. Here's an example run:
+Run `cookiecutter gh:literalgarage/python-lib --checkout literal-style` and then answer the prompts. Here's an example run:
 
 ```bash
-cookiecutter gh:simonw/python-lib
+cookiecutter gh:literalgarage/python-lib --checkout literal-style
 ```
 
 ```
