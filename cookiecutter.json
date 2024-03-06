@@ -1,9 +1,9 @@
 {
-  "lib_name": "",
-  "description": "",
+  "lib_name": null,
+  "description": null,
   "hyphenated": "{{ '-'.join(cookiecutter['lib_name'].lower().split()).replace('_', '-') }}",
   "underscored": "{{ cookiecutter.hyphenated.replace('-', '_') }}",
-  "github_username": "",
-  "author_name": "",
-  "author_email": ""
+  "github_username": null,
+  "author_name": null,
+  "author_email": null
 }
