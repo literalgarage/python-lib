@@ -22,7 +22,16 @@ jobs:
     - name: Install dependencies
       run: |
         pip install '.[dev]'
+    - name: Check formatting
+      run: |
+        ruff format --check
+    - name: Lint
+      run: |
+        ruff --check
+    - name: Check types
+      run: |
+        mypy .
     - name: Run tests
       run: |
         pytest
-{% endraw %}
+  {% endraw %}
