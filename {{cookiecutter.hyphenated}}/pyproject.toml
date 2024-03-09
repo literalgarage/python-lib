@@ -41,7 +41,7 @@ extend-select = [
 ]
 extend-ignore = [
   "D100", # Allow missing docstring in public module
-  "D211", # Instead, use D203 (one blank line before class docstring)
+  "D203", # Instead, use D211 (zero blank lines before class docstring)
   "D212", # Instead, use D213 (start multi-line summaries on the second line)
 ]
 
