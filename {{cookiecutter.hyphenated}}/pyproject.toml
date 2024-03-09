@@ -24,13 +24,13 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.mypy]
-exclude = [".venv"]
+exclude = [".venv", "build"]
 ignore_missing_imports = true
 disallow_untyped_defs = false
 show_error_codes = true
 
 [tool.ruff]
-exclude = [".venv"]
+exclude = [".venv", "build"]
 
 [tool.ruff.lint]
 extend-select = [
